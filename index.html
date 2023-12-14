@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!--====== Title ======-->
+    <title>MyCycle</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="logo.png" type="image/png" />
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+
+    <!--====== Line Icons CSS ======-->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/lineicons/font-css/LineIcons.css"
+    />
+
+    <!--====== Tailwind CSS ======-->
+    <link rel="stylesheet" href="assets/css/tailwindcss.css" />
+  </head>
+
+  <body>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+      <div class="loader">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <section class="header_area">
+      <div class="navbar-area bg-white">
+        <div class="container relative">
+          <div class="row items-center">
+            <div class="w-full">
+              <nav
+                class="flex items-center justify-between py-4 navbar navbar-expand-lg"
+              >
+                <a class="navbar-brand mr-5" href="index.html">
+                  <img src="logo_70x70.png" alt="Logo" />
+                </a>
+                <button
+                  class="block navbar-toggler focus:outline-none lg:hidden"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarOne"
+                  aria-controls="navbarOne"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white lg:w-auto collapse navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none"
+                  id="navbarOne"
+                >
+                  <ul
+                    id="nav"
+                    class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
+                  >
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll" href="#working">Working</a>
+                    </li>
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll" href="#socials">Socials</a>
+                    </li>
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll" href="#articles">Articles</a>
+                    </li>
+                    <li class="nav-item ml-5 lg:ml-11">
+                      <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar collapse -->
+              </nav>
+              <div class="navbar-menu relative z-50 hidden">
+                <div
+                  class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
+                ></div>
+                <nav
+                  class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+                >
+                  <div class="flex items-center mb-8">
+                    <button class="navbar-close">
+                      <svg
+                        class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18L18 6M6 6l12 12"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div>
+                    <ul class="columns-2">
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#home"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#about"
+                          >About</a
+                        >
+                      </li>
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#working"
+                          >Working</a
+                        >
+                      </li>
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#socials"
+                          >Socials</a
+                        >
+                      </li>
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#articles"
+                          >Articles</a
+                        >
+                      </li>
+                      <li class="mb-1">
+                        <a
+                          class="block p-4 text-sm font-semibold text-gray-400 hover:bg-rose-50 hover:text-theme-color rounded"
+                          href="#team"
+                          >Team</a
+                        >
+                      </li>
+                      <li class="mb-1"></li>
+                    </ul>
+                  </div>
+                  <div class="mt-auto">
+                    <div class="pt-6">
+                      <a
+                        class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-rose-600 hover:bg-rose-700 rounded-xl"
+                        href="#"
+                        >Join The Community</a
+                      >
+                    </div>
+                    <!-- <p class="my-4 text-xs text-center text-gray-400">
+                      <span>A Friend Of Every Woman</span>
+                    </p> -->
+                  </div>
+                </nav>
+              </div>
+
+              <script>
+                // Burger menus
+                document.addEventListener("DOMContentLoaded", function () {
+                  // open
+                  const burger = document.querySelectorAll(".navbar-toggler");
+                  const menu = document.querySelectorAll(".navbar-menu");
+
+                  if (burger.length && menu.length) {
+                    for (var i = 0; i < burger.length; i++) {
+                      burger[i].addEventListener("click", function () {
+                        for (var j = 0; j < menu.length; j++) {
+                          menu[j].classList.toggle("hidden");
+                        }
+                      });
+                    }
+                  }
+
+                  // close
+                  const close = document.querySelectorAll(".navbar-close");
+                  const backdrop =
+                    document.querySelectorAll(".navbar-backdrop");
+
+                  if (close.length) {
+                    for (var i = 0; i < close.length; i++) {
+                      close[i].addEventListener("click", function () {
+                        for (var j = 0; j < menu.length; j++) {
+                          menu[j].classList.toggle("hidden");
+                        }
+                      });
+                    }
+                  }
+
+                  if (backdrop.length) {
+                    for (var i = 0; i < backdrop.length; i++) {
+                      backdrop[i].addEventListener("click", function () {
+                        for (var j = 0; j < menu.length; j++) {
+                          menu[j].classList.toggle("hidden");
+                        }
+                      });
+                    }
+                  }
+                });
+              </script>
+              <!-- navbar -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- header navbar -->
+
+      <div
+        id="home"
+        class="header_hero bg-gray relative z-10 overflow-hidden lg:flex items-center"
+      >
+        <div class="hero_shape shape_1">
+          <img src="assets/images/shape/shape-1.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_2">
+          <img src="assets/images/shape/shape-2.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_3">
+          <img src="assets/images/shape/shape-3.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <!-- <div class="hero_shape shape_4">
+          <img src="assets/images/shape/shape-4.svg" alt="shape" />
+        </div> -->
+        <!-- hero shape -->
+        <div class="hero_shape shape_6">
+          <img src="assets/images/shape/shape-1.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_7">
+          <img src="assets/images/shape/shape-4.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_8">
+          <img src="assets/images/shape/shape-3.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_9">
+          <img src="assets/images/shape/shape-2.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_10">
+          <img src="assets/images/shape/shape-4.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_11">
+          <img src="assets/images/shape/shape-1.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+        <div class="hero_shape shape_12">
+          <img src="assets/images/shape/shape-2.svg" alt="shape" />
+        </div>
+        <!-- hero shape -->
+
+        <div class="container">
+          <div class="row">
+            <div class="w-full lg:w-1/2 mr-12">
+              <div class="header_hero_content pt-150 lg:pt-0">
+                <h2
+                  class="hero_title text-6xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold"
+                >
+                  A Friend Of Every Women -
+                  <span class="text-theme-color">MyCycle</span>
+                </h2>
+                <p class="mt-8 lg:mr-8">
+                  Our mission is to simplify the lives of millions of women
+                  worldwide by providing accurate period tracking and menstrual
+                  health monitoring from the comfort of their homes.
+                </p>
+                <div class="hero_btn mt-10">
+                  <a class="main-btn" href="#about">Know More</a>
+                </div>
+              </div>
+              <!-- header hero content -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+        <div class="header_shape hidden lg:block"></div>
+
+        <div class="header_image flex items-center">
+          <div class="image pl-25">
+            <img src="assets/images/header 1.png" alt="Header Image" />
+          </div>
+        </div>
+        <!-- header image -->
+      </div>
+      <!-- header hero -->
+    </section>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section class="services_area pt-120" id="about">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="w-full lg:w-1/2">
+            <div class="section_title text-center pb-6">
+              <h5 class="sub_title">About</h5>
+              <h4 class="main_title">Our Mission</h4>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-center">
+          <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+            <div class="single_services text-center mt-8 mx-3">
+              <div class="services_icon">
+                <i class="lni lni-write"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="94"
+                  height="92"
+                  viewBox="0 0 94 92"
+                >
+                  <path
+                    class="services_shape"
+                    id="Polygon_12"
+                    data-name="Polygon 12"
+                    d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                  />
+                </svg>
+              </div>
+              <div class="services_content mt-5">
+                <h3
+                  class="services_title text-black font-semibold text-xl md:text-3xl"
+                >
+                  Screening
+                </h3>
+                <p class="mt-4">
+                  We're dedicated to empowering women globally by not only
+                  offering precise period tracking but also by providing the
+                  means to screen for vaginal infections, ensuring their health
+                  and well-being.
+                </p>
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+            <div class="single_services text-center mt-8 mx-3">
+              <div class="services_icon">
+                <i class="lni lni-bulb"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="94"
+                  height="92"
+                  viewBox="0 0 94 92"
+                >
+                  <path
+                    class="services_shape"
+                    id="Polygon_12"
+                    data-name="Polygon 12"
+                    d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                  />
+                </svg>
+              </div>
+              <div class="services_content mt-5">
+                <h3
+                  class="services_title text-black font-semibold text-xl md:text-3xl"
+                >
+                  Predictions
+                </h3>
+                <p class="mt-4">
+                  Our cutting-edge technology goes beyond tracking and
+                  screening. MyCycle also offers predictive insights, helping
+                  women anticipate their menstrual cycles and health needs with
+                  greater precision.
+                </p>
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+            <div class="single_services text-center mt-8 mx-3">
+              <div class="services_icon">
+                <i class="lni lni-checkmark-circle"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="94"
+                  height="92"
+                  viewBox="0 0 94 92"
+                >
+                  <path
+                    class="services_shape"
+                    id="Polygon_12"
+                    data-name="Polygon 12"
+                    d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                  />
+                </svg>
+              </div>
+              <div class="services_content mt-5">
+                <h3
+                  class="services_title text-black font-semibold text-xl md:text-3xl"
+                >
+                  Comfort
+                </h3>
+                <p class="mt-4">
+                  At MyCycle, we're committed to pioneering non-invasive
+                  solutions that enhance your confidence and comfort, enabling
+                  you to lead a life filled with confidence and ease
+                </p>
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section id="working" class="about_area pt-120 relative">
+      <div class="about_image flex items-end justify-end">
+        <div class="image lg:pr-13">
+          <img src="assets/images/about.png" alt="about" />
+        </div>
+      </div>
+      <!-- about image -->
+      <div class="container">
+        <div class="row justify-end">
+          <div class="w-full lg:w-1/2">
+            <div class="about_content mx-4 pt-11 lg:pt-15 lg:pb-15">
+              <div class="section_title pb-9">
+                <h5 class="sub_title">So how does it work ?</h5>
+                <h4 class="main_title">3 Simple Steps</h4>
+              </div>
+              <!-- section title -->
+              <p>
+                MyCycle's process is simple: collect a cervical mucus sample,
+                measure pH with our device, and input your BBT in the app. Our
+                ML algorithm ensures precise results.
+              </p>
+              <ul class="about_list pt-3">
+                <li class="flex mt-5">
+                  <div class="about_check">
+                    <i class="lni lni-checkmark-circle"></i>
+                  </div>
+                  <div class="about_list_content pl-5 pr-2">
+                    <p>
+                      Begin by collecting a small cervical mucus sample using a
+                      silicon swab and applying it to our device. This initial
+                      step initiates the process of data collection.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex mt-5">
+                  <div class="about_check">
+                    <i class="lni lni-checkmark-circle"></i>
+                  </div>
+                  <div class="about_list_content pl-5 pr-2">
+                    <p>
+                      Our device measures the pH of the cervical mucus and
+                      seamlessly transmits this vital data to our user-friendly
+                      app, where your menstrual health journey continues.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex mt-5">
+                  <div class="about_check">
+                    <i class="lni lni-checkmark-circle"></i>
+                  </div>
+                  <div class="about_list_content pl-5 pr-2">
+                    <p>
+                      Enter your Basal Body Temperature (BBT) into the app, and
+                      our state-of-the-art machine learning algorithm processes
+                      the combined data to generate accurate, actionable results
+                      providing you with valuable insights into your menstrual
+                      health for confident and informed decision-making.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- about content -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== BLOG PART START ======-->
+
+    <section id="socials" class="blog_area pt-120">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="w-full lg:w-1/2">
+            <div class="section_title text-center pb-6">
+              <h5 class="sub_title">Wanna Stay Connected ?</h5>
+              <h4 class="main_title">Here are our socials</h4>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-center lg:justify-start">
+          <div class="w-full md:w-8/12 lg:w-6/12 xl:w-4/12">
+            <div
+              class="single_blog mx-3 mt-8 rounded-xl border-k-2 hover:border-none bg-white transition-all duration-300 overflow-hidden hover:shadow-lg border-4 border-theme-color hover:shadow-theme-color"
+            >
+              <div class="blog_image">
+                <img src="assets/images/instaa.png" alt="blog" class="w-full" />
+              </div>
+              <div class="blog_content p-4 md:p-5">
+                <h3 class="blog_title">
+                  <a href="https://www.instagram.com/mycycle.me">Instagram</a>
+                </h3>
+                <a href="https://www.instagram.com/mycycle.me" class="more_btn"
+                  >Informative posts, fun reels, and a lot lot more</a
+                >
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+          <div class="w-full md:w-8/12 lg:w-6/12 xl:w-4/12">
+            <div
+              class="single_blog mx-3 mt-8 rounded-xl border-k-2 solid border-theme-color border-opacity-100 bg-white transition-all duration-300 overflow-hidden hover:shadow-lg"
+            >
+              <div class="blog_image">
+                <img src="assets/images/medium.png" alt="blog" class="w-full" />
+              </div>
+              <div class="blog_content p-4 md:p-5">
+                <h3 class="blog_title">
+                  <a href="https://medium.com/@mycycle.me">Medium</a>
+                </h3>
+                <a href="#https://medium.com/@mycycle.me" class="more_btn"
+                  >Read thoroughly research-based articles centred around women
+                  health and women empowerment.</a
+                >
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+          <div class="w-full md:w-8/12 lg:w-6/12 xl:w-4/12">
+            <div
+              class="single_blog mx-3 mt-8 rounded-xl border-k-2 bg-white transition-all duration-300 overflow-hidden hover:shadow-lg"
+            >
+              <div class="blog_image h-16">
+                <img
+                  src="assets/images/linkedin.png"
+                  alt="blog"
+                  class="w-full"
+                />
+              </div>
+              <div class="blog_content p-4 md:p-5">
+                <h3 class="blog_title">
+                  <a href="https://in.linkedin.com/company/my-cycle-me"
+                    >LinkedIn</a
+                  >
+                </h3>
+                <a
+                  href="#https://in.linkedin.com/company/my-cycle-me"
+                  class="more_btn"
+                  >Know more about the company, the product, and our plans</a
+                >
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== BLOG PART ENDS ======-->
+
+    <!--====== WORK PART START ======-->
+
+    <section id="articles" class="work_area bg-gray pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="w-ull lg:w-1/2">
+            <div class="section_title text-center pb-6">
+              <h5 class="sub_title">Like the topic ?</h5>
+              <h4 class="main_title">Here are some articles</h4>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+      <div class="container-fluid">
+        <div class="work_wrapper relative">
+          <div class="row work_active">
+            <div class="w-full lg:w-3/12">
+              <div class="single_item mx-auto">
+                <div class="single_work mx-3">
+                  <div class="work_image">
+                    <img
+                      src="assets/images/medium1.jpg
+                      "
+                      alt="work1"
+                      class="w-full"
+                    />
+                  </div>
+                  <div class="work_content">
+                    <a
+                      href="https://medium.com/@mycycle.me/silent-suffering-unveiling-the-paindemic-in-women-s-healthcare-986652c43ea0"
+                      class="arrow"
+                      ><i class="lni lni-chevron-right"></i
+                    ></a>
+                    <h4 class="work_title text-xl md:text-2xl">
+                      <a
+                        href="https://medium.com/@mycycle.me/silent-suffering-unveiling-the-paindemic-in-women-s-healthcare-986652c43ea0"
+                        >Pain-Demic <br
+                      /></a>
+                      <br />
+                    </h4>
+                    <p class="mt-2">The Silent Suffering</p>
+                  </div>
+                </div>
+              </div>
+              <!-- single work -->
+
+              <!-- single work -->
+              <!-- single work -->
+
+              <!-- single work -->
+
+              <!-- single work -->
+
+              <!-- single work -->
+            </div>
+            <div class="w-full lg:w-3/12">
+              <div class="single_item mx-auto">
+                <div class="single_work mx-3">
+                  <div class="work_image">
+                    <img
+                      src="assets/images/medium2.png"
+                      alt="work4"
+                      class="w-full"
+                    />
+                  </div>
+                  <div class="work_content">
+                    <a href="#" class="arrow"
+                      ><i class="lni lni-chevron-right"></i
+                    ></a>
+                    <h4 class="work_title text-xl md:text-2xl">
+                      <a href="#">Endometriosis vs. Adenomyosis</a>
+                    </h4>
+                    <p class="mt-2">Exploring the Enigma</p>
+                  </div>
+                </div>
+              </div>
+              <!-- single work -->
+            </div>
+            <div class="w-full lg:w-1/2">
+              <div class="single_item mx-auto">
+                <div class="single_work mx-3">
+                  <div class="work_image">
+                    <img
+                      src="assets/images/medium3.png"
+                      alt="work4"
+                      class="w-full"
+                    />
+                  </div>
+                  <div class="work_content">
+                    <a href="https://medium.com/@mycycle.me" class="arrow"
+                      ><i class="lni lni-chevron-right"></i
+                    ></a>
+                    <h4 class="work_title text-xl md:text-2xl">
+                      <a href="https://medium.com/@mycycle.me"
+                        >New Articles Out Every Week</a
+                      >
+                    </h4>
+                    <p class="mt-2">Stay Tuned..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- single work -->
+          </div>
+          <!-- row -->
+        </div>
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== WORK PART ENDS ======-->
+
+    <!--====== TEAM PART START ======-->
+
+    <section id="team" class="team_area bg-gray pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="w-full lg:w-1/2">
+            <div class="section_title text-center pb-6">
+              <h5 class="sub_title">Team</h5>
+              <h4 class="main_title">Meet Our Team Members</h4>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="team-wrapper relative">
+          <div class="row team_active">
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 1.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.instagram.com/rajanity02/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/nitya-rajan-735411183/"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Nitya Rajan</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Hardware and Technology Head
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Co-Founder</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 2.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.instagram.com/arey_pranay/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/pranay-parikh-530331218/"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Pranay Parikh</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Design and Social Media Head
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Co-Founder</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 3.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.instagram.com/ms_muhi1606/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/muhila-s-739470282/"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Muhila S</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Research and Biology Head
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Co-Founder</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 4.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.instagram.com/yours.archit/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/archit-gangshettiwar-2a353b263/"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Archit Gangshettiwar</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Content Writer
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Intern</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 5.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.instagram.com/__vignesh.__07/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/vigneshmani17/"
+                          ><i class="lni lni-linkedin-original"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Vignesh M</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Post Designer
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Intern</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12">
+              <div class="single_team_item mx-auto">
+                <div class="single_team mx-3">
+                  <div class="team_image relative">
+                    <img
+                      src="assets/images/image 6.png"
+                      alt="team"
+                      class="w-full"
+                    />
+                    <ul class="social absolute top-4 right-8">
+                      <li>
+                        <a href="https://www.linkedin.com/in/yashi-pandey/"
+                          ><i class="lni lni-instagram-filled"></i
+                        ></a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a href=""><i class="lni lni-linkedin-original"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="team_content py-5 px-8 relative">
+                    <h4 class="team_name text-xl md:text-2xl">
+                      <a href="#" class="text-black group-hover:text-white"
+                        >Yashi Pandey</a
+                      >
+                    </h4>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      Videographer & Video Editor
+                    </p>
+                    <p
+                      class="mt-2 transition-all duration-300 group-hover:text-white"
+                    >
+                      <b>Intern</b>
+                    </p>
+                  </div>
+                </div>
+                <!-- single team -->
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== TEAM PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer_area bg-black relative z-10">
+      <div
+        class="shape absolute left-0 top-0 opacity-5 h-96 overflow-hidden w-1/3"
+      >
+        <img src="assets/images/footer-shape-left.png" alt="" />
+      </div>
+      <div
+        class="shape absolute right-0 top-0 opacity-5 h-96 overflow-hidden w-1/3"
+      >
+        <img src="assets/images/footer-shape-right.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="footer_widget pt-18 pb-120">
+          <div class="row justify-center">
+            <div class="w-full md:w-1/2 lg:w-3/12">
+              <div class="footer_about mt-13 mx-3">
+                <div class="footer_logo">
+                  <a href="#"><img src="logo_70x70.png" alt="" /></a>
+                </div>
+                <div class="footer_content mt-8">
+                  <p class="text-white z-20">
+                    If you like the vision and wanna keep hearing from us,
+                    subscribe to the <a href="google.com">newsletter</a>.!
+                  </p>
+                </div>
+              </div>
+              <!-- footer about -->
+            </div>
+            <div class="w-full md:w-1/2 lg:w-5/12">
+              <div class="footer_link_wrapper flex flex-wrap mx-3">
+                <div class="footer_link w-1/2 md:pl-13 mt-13">
+                  <h2 class="footer_title text-xl font-semibold text-white">
+                    Quick Links
+                  </h2>
+                  <ul class="link pt-4">
+                    <li>
+                      <a
+                        href="#about"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >About</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#team"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >Team</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#working"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >Working</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- footer link -->
+                <div class="footer_link w-1/2 md:pl-13 mt-13">
+                  <h2 class="footer_title text-xl font-semibold text-white">
+                    Socials
+                  </h2>
+                  <ul class="link pt-4">
+                    <li>
+                      <a
+                        href="https://www.instagram.com/mycycle.me"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >Instagram</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/89317844"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://medium.com/@mycycle.me"
+                        class="text-white mt-4 hover:text-theme-color"
+                        >Medium</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- footer link -->
+              </div>
+              <!-- footer link wrapper -->
+            </div>
+            <div class="w-full md:w-2/3 lg:w-4/12">
+              <div class="hidden lg:block footer_subscribe mt-13 mx-3">
+                <h2 class="footer_title text-xl font-semibold text-white">
+                  Get in Touch
+                </h2>
+                <div class="subscribe_form -z-10 text-right mt-9 relative">
+                  <form action="#">
+                    <input
+                      disabled
+                      type="null"
+                      placeholder="         -------->"
+                      class="w-full py-5 px-6 bg-white text-black rounded-full border-none"
+                    />
+                    <button class="main-btn subscribe-btn">
+                      <a
+                        href="mailto:mycycle.me@gmail.com?subject = Feedback&body = Message"
+                      >
+                        Send A Mail..
+                      </a>
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <!-- footer subscribe -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer widget -->
+        <div
+          class="footer_copyright pt-3 pb-6 border-t-2 border-solid border-white border-opacity-10 sm:flex justify-between"
+        >
+          <div class="footer_social pt-4 mx-3 text-center">
+            <ul class="social flex justify-center sm:justify-start z-50">
+              <li class="mr-3">
+                <!-- <a href="https://instagram.com/uideckHQ"
+                  ><i class="lni lni-instagram-filled"></i
+                ></a>
+              </li>
+              <li class="mr-3">
+                <a href="https://twitter.com/uideckHQ"
+                  ><i class="lni lni-twitter-filled"></i
+                ></a>
+              </li> -->
+              </li>
+
+              <li class="mr-3">
+                <a href="https://instagram.com/arey-pranay"
+                  ><i class="lni lni-instagram-original"></i
+                ></a>
+              </li>
+              <li class="mr-3">
+                <a href="https://www.linkedin.com/in/pranay-parikh-530331218/"
+                  ><i class="lni lni-linkedin-original"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer social -->
+          <div class="footer_copyright_content pt-4 text-center">
+            <p class="text-white">
+              Designed and Developed by
+              <a
+                href="https://github.com/arey-pranay"
+                rel="nofollow"
+                class="text-white hover:text-theme-color z-50"
+                >Pranay Parikh</a
+              >
+            </p>
+          </div>
+          <!-- footer copyright content -->
+        </div>
+        <!-- footer copyright -->
+      </div>
+      <!-- container -->
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="scroll-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+    <!--====== Tiny Slider js ======-->
+    <script src="assets/js/tiny-slider.js"></script>
+
+    <!--====== Wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
